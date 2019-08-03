@@ -1,177 +1,177 @@
 ---
-- titolo: Sandviĉo
+- titolo: Ĉipso
   kvanto: 7
-  img: img/.jpg
+  svg: svg/chips.svg
   teksto: Sufiĉas por 1 porcio da manĝaĵo.
   konstanta: false
 - titolo: Akvobotelo
   kvanto: 7
-  img: img/.jpg
+  svg: svg/akvobotelo.svg
   teksto: Sufiĉas por 1 porcio da trinkaĵo.
   konstanta: false
 - titolo: Kokoso
   kvanto: 1
-  img: img/.jpg
+  svg: svg/coco.svg
   teksto: Sufiĉas por 3 porcioj da trinkaĵo.
   konstanta: false
-- titolo: Fiŝkonservaĵo
+- titolo: Konservaĵo
   kvanto: 1
-  img: img/.jpg
-  teksto: Sufiĉas por 3 porcioj da manĝaĵo.
+  svg: svg/konservujo.svg
+  teksto: Sufiĉas por 3 porcioj da manĝaĵo. (Kaj mil furzoj...)
   konstanta: false
 - titolo: Malpurigita akvo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/malbonatrinkajxo.svg
   teksto: Sufiĉas por 1 porcio da trinkaĵo, sed enfermigas vin por la sekva turno.
   konstanta: false
-- titolo: Putrita Fiŝo
+- titolo: Malsana manĝo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/malbona.svg
   teksto: Sufiĉas por 1 porcio da manĝaĵo, sed enfermigas vin por la sekva turno.
   konstanta: false
 - titolo: PMEG
   kvanto: 1
-  img: img/pmeg.png
+  svg: img/pmeg.png
   teksto: Tio ne utilas en la insulo, sed finfine vi havas tempon por lerni detalojn
     pri gramatiko.
   konstanta: false
-- titolo: Evulocio
+- titolo: Evolucio
   kvanto: 1
-  img: img/.jpg
+  svg: img/evolucio.png
   teksto: Tio ne utilas en la insulo. (Sed almenaŭ vi ne tro enuas kun ludo.)
   konstanta: false
 - titolo: Manĝkuponoj
   kvanto: 1
-  img: img/.jpg
+  svg: svg/trinkkupono.svg
   teksto: Tio (bedaŭrinde) ne utilas en la insulo.
   konstanta: false
 - titolo: Flugbileto al UK
   kvanto: 1
-  img: img/.jpg
+  svg: svg/pasporto.svg
   teksto: Tio ne utilas en la insulo. Via aviadilo flugos sen vi.
   konstanta: false
-- titolo: ''
+- titolo: 'Nenio'
   kvanto: 1
-  img: img/.jpg
+  svg: svg/nenio.svg
   teksto: Tio ne utilas en la insulo.
   konstanta: false
 - titolo: Akvujo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/botelo.svg
   teksto: Ĉiam kiam vi kolektas akvon vi povas kolekti la duoblan kvanton.
   konstanta: true
 - titolo: Hoko
   kvanto: 1
-  img: img/.jpg
+  svg: svg/hoko.svg
   teksto: Ĉiam kiam vi fiŝas vi povas kapti du fiŝojn.
   konstanta: true
 - titolo: Hakilo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/axe.svg
   teksto: Ĉiam kiam vi kolektas ligno vi povas sen danĝero de esti venenita ja trovi
     du lignojn.
   konstanta: true
 - titolo: Wekilo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/horlogxo.svg
   teksto: Vi rajtas ŝanĝi la ekludanto de la sekvo turno laŭ via volo.
   konstanta: false
 - titolo: Kafo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/kafo.svg
   teksto: Vi ĉi-turne povas fari du agojn.
   konstanta: false
 - titolo: Pafilo
   kvanto: 3
-  img: img/.jpg
+  svg: svg/pafilo.svg
   teksto: Kiam vi havas kuglon, vi povas mortigi iun.
   konstanta: true
 - titolo: Kuglo
   kvanto: 6
-  img: img/.jpg
+  svg: svg/kuglo.svg
   teksto: Nur uzebla pere de la pafilo. Nur unufoje uzebla.
   konstanta: false
 - titolo: Antidoto
   kvanto: 1
-  img: img/.jpg
+  svg: svg/anti.svg
   teksto: Sanigas vin de venona serpentmordo. La mordito ne malsanigas, sed perdas
     sian lignon.
   konstanta: false
 - titolo: Breto
   kvanto: 1
-  img: img/.jpg
+  svg: svg/ligno.svg
   teksto: Estas sufiĉe da ligno por aldona ludanto en la floso.
   konstanta: false
 - titolo: Alumetoj
   kvanto: 1
-  img: img/.jpg
+  svg: svg/alumetoj.svg
   teksto: Post la bruligo vi povas sen venenigo manĝi malpuran akvon au putritan fiŝon.
   konstanta: false
 - titolo: Voodoopupo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/voodoo.svg
   teksto: Dum la nokto (komence de nova turno) vi povas revivigi mortitan ludanton.
   konstanta: false
 - titolo: Poŝlampo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/lampo.svg
   teksto: Vidu sekrete la tri suprajn kartojn de la ŝipvrako.
   konstanta: false
 - titolo: Kristalsfero
   kvanto: 1
-  img: img/.jpg
+  svg: svg/glassball.svg
   teksto: Dum la voĉdonoj vi povas kiel la lasta voĉdoni.
   konstanta: true
 - titolo: Klabo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/kalbo.svg
   teksto: Via voĉo valoras duoble dum voĉdonoj.
   konstanta: true
-- titolo: Onda lado
+- titolo: Metalaĵo
   kvanto: 2
-  img: img/.jpg
+  svg: svg/metalo.svg
   teksto: Protektas vin kontraŭ unu pafo.
   konstanta: false
 - titolo: Dormigaj piloloj
   kvanto: 1
-  img: img/.jpg
+  svg: svg/dorm.svg
   teksto: Vi rajtas ŝteli po una karto de ĝis tri ludantoj.
   konstanta: false
 - titolo: Barometro
   kvanto: 1
-  img: img/.jpg
+  svg: img/atmospheric.png
   teksto: Vi rajtas sekrete antaŭvidi la sekvajn du veterkartojn.
   konstanta: false
 - titolo: Fruktkorbo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/fruktoj.svg
   teksto: Kaze de manko de akvo kaj/aŭ manĝo neniu devas morti. La indikilo por akvo
     kaj manĝo poste estas nulo. La korbo ne taŭgas por kunpreni en flosvojaĝon.
   konstanta: false
 - titolo: Teleskopo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/telescope.svg
   teksto: Vi sekrete rajtas vidi la kartojn de alia ludanto.
   konstanta: false
 - titolo: Turnpureilo
   kvanto: 1
-  img: img/.jpg
+  svg: img/flottelotte.png
   teksto: Vi povas konverti 2 manĝporcioj al 2 akvoporcioj.
   konstanta: false
 - titolo: Pendolo
   kvanto: 1
-  img: img/.jpg
+  svg: svg/pendulum.svg
   teksto: Vi povas devigi alian ludanton fari agon (fiŝi, kolekti akvon, kolekti lignon,
     traserĉi la vrakon)
   konstanta: false
 - titolo: Konko
   kvanto: 1
-  img: img/.jpg
-  teksto: Ĉiturne vi estas la estro, neniu povas voĉdoni kontraŭ vi. Ludeblas ankaŭ
+  svg: svg/konko.svg
+  teksto: Ĉi-turne vi estas la estro, neniu povas voĉdoni kontraŭ vi. Ludeblas ankaŭ
     post voĉdonado (kaze ripetendas do).
   konstanta: false
 - titolo: Kradrostkanibalilon
   kvanto: 1
-  img: img/.jpg
+  svg: svg/rostilo.svg
   teksto: Fine de la turno vi ricevos po ĉi-turne mortitan ludanto du manĝojn.
   konstanta: false

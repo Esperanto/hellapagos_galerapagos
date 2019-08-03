@@ -15,14 +15,15 @@
     <g id="k{{loop.index}}" height="90" width="60" transform="translate({{ offset[0] }}, {{ offset[1] }})">
       <rect y="0" x="0" height="90" width="60" id="k{{loop.index}}-fono" fill="url(#pat)"
          style="stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text id="k{{loop.index}}-titolo" y="5" x="10"
+      <text id="k{{loop.index}}-titolo" y="5" x="5"
        style="font-style:normal;font-weight:normal;font-size:6.5px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25">
          {% for titolo_lineo in k["titolo"] %}
-         <tspan y="{{10 + loop.index0*6}}" x="10" id="k{{oloop.index}}-titolo" style="fill:#ffffff;stroke-width:0.25">
+         <tspan y="{{10 + loop.index0*6}}" x="5" id="k{{oloop.index}}-titolo" style="fill:#ffffff;stroke-width:0.25">
           {{ titolo_lineo }}
         </tspan>
         {% endfor %}
       </text>
+      <image x="17.5" y="40" width="25" height="25" xlink:href="{{ k['svg'] }}" />
       <text id="k{{loop.index}}-teksto" y="40" x="0"
          style="font-style:normal;font-weight:normal;font-size:6px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000;fill-opacity:1;stroke:none;stroke-width:0.25">
            {% for tekstlineo in k["teksto"] %}
