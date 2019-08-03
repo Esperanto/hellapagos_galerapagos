@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% macro karto(name, value='', type='text', size=20) %}
+<input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}">
+{% endmacro %}
+
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg8">
+  <g transform="translate(14, 12.5)" id="layer1">
+    {% for k, offset in kartoj_offsets %}
+    {% set oloop=loop %}
+    <g id="k{{loop.index}}" transform="translate({{ offset[0] }}, {{ offset[1] }})">
+      <rect y="0" x="0" height="90" width="60" id="k{{loop.index}}-fono"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text id="k{{loop.index}}-titolo" y="5" x="10"
+       style="font-style:normal;font-weight:normal;font-size:6.5px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25">
+         {% for titolo_lineo in k["titolo"] %}
+         <tspan y="{{10 + loop.index0*6}}" x="10" id="k{{oloop.index}}-titolo" style="fill:#ffffff;stroke-width:0.25">
+          {{ titolo_lineo }}
+        </tspan>
+        {% endfor %}
+      </text>
+      <text id="k{{loop.index}}-teksto" y="40" x="0"
+         style="font-style:normal;font-weight:normal;font-size:6.5px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25">
+           {% for tekstlineo in k["teksto"] %}
+           <tspan y="{{60 + loop.index0*4}}" x="5" id="k{{oloop.index}}-par-{{loop.index}}" style="font-size:4px;line-height:0;fill:#ffffff;stroke-width:0.25">
+                {{ tekstlineo }}
+           </tspan>
+           {% endfor %}
+     </text>
+    </g>
+    {% endfor %}
+  </g>
+</svg>
