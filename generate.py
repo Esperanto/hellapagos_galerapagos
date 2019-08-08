@@ -5,7 +5,6 @@ kartoj = yaml.safe_load(open("kartoj.yaml").read())   # listo de kartoj
 
 for k in kartoj: #trancxu tekston al sammlongaj lineoj
     k["titolo"] = textwrap.wrap(k["titolo"], 13)
-    k["teksto"] = textwrap.wrap(k["teksto"], 35)
     k["svg"] = k["svg"] if os.path.isfile(k["svg"]) else "akvobotelo.svg"
 kartoj = [k for k in kartoj for i in range(k["kvanto"])] # adpatas la liston por kvanto de karto
 pagxoj = [kartoj[i:i+9] for i in range(0, len(kartoj), 9)] #disigas la kartaro en pagxojn po de 9 kartoj
