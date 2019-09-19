@@ -24,10 +24,10 @@
   svg: svg/malbonatrinkajxo.svg
   teksto: Sufiĉas por 1 porcio da trinkaĵo, sed enfermigas vin por la sekva turno.
   konstanta: false
-- titolo: Malsana manĝo
+- titolo: Malsaniga manĝo
   kvanto: 1
   svg: svg/malbona.svg
-  teksto: Sufiĉas por 1 porcio da manĝaĵo, sed enfermigas vin por la sekva turno.
+  teksto: Sufiĉas por 1 porcio da manĝaĵo, sed malsanigas vin por la sekva turno.
   konstanta: false
 - titolo: PMEG
   kvanto: 1
