@@ -22,7 +22,7 @@
 - titolo: Malpurigita akvo
   kvanto: 1
   svg: svg/malbonatrinkajxo.svg
-  teksto: Sufiĉas por 1 porcio da trinkaĵo, sed enfermigas vin por la sekva turno.
+  teksto: Sufiĉas por 1 porcio da trinkaĵo, sed malsanigas vin por la sekva turno.
   konstanta: false
 - titolo: Malsaniga manĝo
   kvanto: 1
@@ -32,8 +32,8 @@
 - titolo: PMEG
   kvanto: 1
   svg: img/pmeg.png
-  teksto: Tio ne utilas en la insulo, sed finfine vi havas tempon por lerni detalojn
-    pri gramatiko.
+  teksto: Tio pomo ne manĝeblas, kaj ne tro utilas en la insulo, sed finfine vi havas tempon por lerni detalojn
+    pri la esperanta gramatiko.
   konstanta: false
 - titolo: Evolucio
   kvanto: 1
